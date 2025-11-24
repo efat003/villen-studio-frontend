@@ -40,9 +40,11 @@ import PaymentFailed from './pages/PaymentFailed';
 import About from './pages/about'; // Fixed: lowercase 'about'
 
 // Admin Pages - Check if these files exist, if not, we'll create them
-import AdminDashboard from './admin/dashboard'; // Fixed: lowercase 'dashboard'
+import AdminDashboard from './admin/Dashboard'; // Fixed: lowercase 'dashboard'
 // import AdminProducts from './admin/Products'; // Commented out - file doesn't exist
 // import AdminOrders from './admin/Orders'; // Commented out - file doesn't exist
+import AdminSidebar from './components/AdminSidebar'; // Check if this exists
+import AdminHeader from './components/AdminHeader'; 
 
 // Styles
 import './App.css';
